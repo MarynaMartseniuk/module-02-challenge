@@ -20,7 +20,6 @@ header {
   justify-content: space-between;
   background-color: rgb(4, 29, 77);
   color: beige;
-
 }
 
 main {
@@ -33,19 +32,37 @@ footer {
   color: beige;
 }
 
+.navigation {
+ 
+  }
+
 .photo {
   width: 250px;
+  display: flex;
+  flex: 1 1 1 ;
 }
 
 .first,
 .second {
-  display: inline;
+  display: flex;
 }
 
+.Work-title,
+.Contact-Me-title,
+.About-Me-title,
 .Work,
 .Contact-Me
 .About-Me {
   height: 500px;
+  display: block;
+  border: 5px;
+  border-color: black;
+}
+
+.Work-title,
+.Contact-Me-title,
+.About-Me-title {
+  width: 30%;
 }
 
 #Work,
