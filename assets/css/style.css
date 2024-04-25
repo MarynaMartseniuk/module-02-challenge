@@ -1,17 +1,85 @@
+/*
+* {
+  display: block;
+  box-sizing: border-box;
+}
+*/
+
 body {
-  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  line-height: 24px;
+  background-color: rgb(236, 245, 244);
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(4, 29, 77);
+  color: beige;
 
 }
 
 main {
-  display: flex;
-  flex: 1 1 0;
-  max-width: 1200px;
-  margin: 2% auto;
+  display: block;
 }
+
+footer {
+  display: flex;
+  background-color: rgb(4, 29, 77);
+  color: beige;
+}
+
+.photo {
+  width: 250px;
+}
+
+.first,
+.second {
+  display: inline;
+}
+
+.Work,
+.Contact-Me
+.About-Me {
+  height: 500px;
+}
+
+#Work,
+#Contact-Me
+#About-Me {
+  display: block
+}
+
+.phone::before {
+  font-family: Impact;
+  content: '\260E';
+  color: #772014;
+  margin-right: 5px;
+}
+
+.email::before {
+  font-family: Impact;
+  content: '\0040';
+  color: #772014;
+  margin-right: 5px;
+}
+
+.LinkedIn::before {
+  font-family: Impact;
+  content: "💻";
+  color: #772014;
+  margin-right: 5px;
+}
+
+.GitHub::before {
+  content: '\0371';
+  color: #772014;
+}
+
 
 @media screen and (max-width: 768px) {
   header {
