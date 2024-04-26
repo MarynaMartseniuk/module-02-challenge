@@ -25,9 +25,9 @@ footer {
   color: beige;
 }
 
-.navigation {
- 
-  }
+.alink {
+  color: beige;
+}
 
 .photo {
   width: 250px;
@@ -39,8 +39,16 @@ footer {
   width: 500px;
 }
 
+.projectN {
+  width: 200px;
+}
+
 .img1 {
   width: 500px;
+}
+
+.imgN {
+  width: 200px;
 }
 
 .imgTitle {
@@ -66,8 +74,7 @@ footer {
 .About-Me-title,
 .Work,
 .About-Me {
-  height: 500px;
-  display: block;
+    display: flexbox;
 }
 
 .Work-title,
@@ -81,10 +88,9 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.alink {
-  color: beige;
-}
+ .Work {
+  flex-wrap: wrap;
+ }
 
 #Work,
 #Contact-Me
