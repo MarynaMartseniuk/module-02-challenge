@@ -1,10 +1,3 @@
-/*
-* {
-  display: block;
-  box-sizing: border-box;
-}
-*/
-
 body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
@@ -39,7 +32,19 @@ footer {
 .photo {
   width: 250px;
   display: flex;
-  flex: 1 1 1 ;
+  flex: 0 1 250px;
+}
+
+.project1 {
+  width: 500px;
+}
+
+.img1 {
+  width: 500px;
+}
+
+.imgTitle {
+  margin-top: 0;
 }
 
 .first,
@@ -47,22 +52,38 @@ footer {
   display: flex;
 }
 
-.Work-title,
+.second {
+  background-color: rgba(216, 216, 218, 0.993);
+}
+
 .Contact-Me-title,
+.Contact-Me {
+  display: block;
+}
+
+
+.Work-title,
 .About-Me-title,
 .Work,
-.Contact-Me
 .About-Me {
   height: 500px;
   display: block;
-  border: 5px;
-  border-color: black;
 }
 
 .Work-title,
 .Contact-Me-title,
 .About-Me-title {
   width: 30%;
+}
+
+.About-Me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.alink {
+  color: beige;
 }
 
 #Work,
@@ -74,27 +95,27 @@ footer {
 .phone::before {
   font-family: Impact;
   content: '\260E';
-  color: #772014;
-  margin-right: 5px;
+  color: rgb(167, 164, 164);
+  margin-right: 20px;
 }
 
 .email::before {
   font-family: Impact;
   content: '\0040';
-  color: #772014;
-  margin-right: 5px;
+  color: rgb(167, 164, 164);
+  margin-right: 20px;
 }
 
 .LinkedIn::before {
   font-family: Impact;
   content: "💻";
-  color: #772014;
   margin-right: 5px;
 }
 
 .GitHub::before {
   content: '\0371';
-  color: #772014;
+  color: rgb(167, 164, 164);
+  margin-right: 20px;
 }
 
 
