@@ -23,3 +23,8 @@
 
 # A link to the web site:
 ##### https://marynamartseniuk.github.io/module-02-challenge/
+
+# To create this code I used:
+##### 1. material from lessons, 
+##### 2. YouTube video "HTML & CSS Full Course - Beginner to Pro" by SuperSimpleDev, 
+##### 3. https://www.html-easy.com/learn/how-to-make-image-clickable-in-html/ to create clickable image.
